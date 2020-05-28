@@ -1,0 +1,16 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+
+.bgImage {
+	background-image:
+	url(https://upload.wikimedia.org/wikipedia/de/thumb/5/51/Gruppenbild_1903.jpg/1920px-Gruppenbild_1903.jpg) ;
+	background-size: cover;
+	-webkit-animation: fade-in 1s linear; 
+	-moz-animation: fade-in 1s linear; 
+	-o-animation: fade-in 1s linear;
+	animation: fade-in 1s linear; 
+	position:relative;
+	z-index:1;
+}

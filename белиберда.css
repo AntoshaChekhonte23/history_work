@@ -1,0 +1,443 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+
+	-webkit-animation: fade-in 1s linear; /* Safari 4+ */
+	-moz-animation: fade-in 1s linear; /* Fx 5+ */
+	-o-animation: fade-in 1s linear; /* Opera 12+ */
+	animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
+
+
+	
+
+	background-size: cover; background-repeat: repeat-y;	
+	background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(0, 0, 0, 0.5) ), url('/img/back/home-back.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+
+
+
+
+header {
+  position: relative;
+  background: url(https://amazingcarousel.com/wp-content/uploads/amazingcarousel/3/images/lightbox/golden-wheat-field-lightbox.jpg) center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+header:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+
+
+
+/*Прозрачно черный квадарт*/
+.dark_block {
+    background: rgba(0,0,0,0.4);
+    width:100%;
+    height:550px;
+    position: absolute; 
+    top:0;
+}
+.main_slide {
+	width:100%;
+	height:550px;
+	background: url(03-1920-12803.png);
+	background-size: cover;
+}
+.content {
+	position: relative;
+	color: white;
+	width:600px;
+	margin:0auto;
+	padding-top:200px;
+	font-size:25px;
+ }
+
+
+ <header>
+	  <div class="inner">
+	    <h1>История и литература 19 и 20 веков</h1>
+	    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, eligendi.</span>
+	  </div>
+	</header>
+
+
+
+
+
+<div class="container">
+				  <!-- Button to Open the Modal -->
+				  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+				    Open modal
+				  </button>
+
+				  <!-- The Modal -->
+				  <div class="modal fade" id="myModal">
+				    <div class="modal-dialog modal-dialog-centered">
+				      <div class="modal-content">
+				      
+				        <!-- Modal Header -->
+				        <div class="modal-header">
+				          <h4 class="modal-title">Modal Heading</h4>
+				          <button type="button" class="close" data-dismiss="modal">×</button>
+				        </div>
+				        
+				        <!-- Modal body -->
+				        <div class="modal-body">
+				          Modal body..
+				        </div>
+				        
+				        <!-- Modal footer -->
+				        <div class="modal-footer">
+				          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				        </div>
+				        
+				      </div>
+				    </div>
+				  </div>
+				</div>	
+
+body {background: #ebcacb;}
+.a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  box-shadow: 0 0 0 2px white;
+  padding: 20px 0;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  overflow: hidden;
+}
+.span {
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  z-index: 5;
+}
+header {
+  position: relative;
+  background: url() center no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
+}
+
+header:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: 2;
+}
+.inner {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  padding: 50px;  
+}	
+
+a:before, 
+a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+a:before{
+  transform: translateX(-100%);
+  background: white;
+  transition: transform .3s cubic-bezier(.55,.055,.675,.19);
+}
+a:after {
+  background: #413ad5;
+  transform: translateX(100%);
+  transition: transform .3s cubic-bezier(.16,.73,.58,.62) .3s;
+}
+a:hover:before,
+a:hover:after {transform: translateX(0);}
+
+.darkened {
+  position: relative;
+}
+ 
+.darkened::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);  
+  z-index: 1;
+}
+
+width:755px;
+margin-left:-15px;
+
+
+overflow: auto;
+    list-style-position: inside;
+
+
+ <script type="text/javascript">
+function timer(){
+ var obj=document.getElementById('timer_inp');
+ obj.innerHTML--;
+ 
+ if(obj.innerHTML==0){;setTimeout(function(){},1000);}
+ else{setTimeout(timer,1000);}
+}
+setTimeout(timer,1000);
+</script>
+
+ <a href="C:\Users\User\Documents\Айти-домашка\new tags\Рандом и ретурн\Материалы урока(85 урок)\index.html" class="btn btn-warning textP" type="button" aria-pressed="true" >Игра</a>
+
+<div id="button" type="button" class="btn btn-white a span color btnMargin texBtn1 btn-lg bg "data-toggle="modal" role= 'dialog' data-target="#exampleModalCenter">
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script type="text/javascript">
+	var button = document.getElementById('button');
+	button.addEventListener('click', function(){
+		swal('Правила','Список')({
+			buttons: [true, "Игра!"],
+		});		
+	});
+	$('#modal_id').modal({ backdrop: 'static', keyboard: false });
+</script>
+
+<div class="swal-title" style="">Правила</div><div class="swal-text" style="">список</div><div class="swal-footer"><div class="swal-button-container">
+
+					    <button class="swal-button swal-button--confirm" style="padding: 7px 19px; border-radius: 2px; background-color: rgb(73, 98, 179); font-size: 12px; border: 1px solid rgb(62, 84, 154); text-shadow: rgba(0, 0, 0, 0.3) 0px -1px 0px;">OK</button>
+
+
+<div class="tac textt" id="timer_inp">30</div>
+
+
+https://avatars.mds.yandex.net/get-zen_doc/164147/pub_5b9d9e51bd1d6600aae13efa_5b9d9e5f7fd3ba00aafe0e8e/scale_1200
+
+texP.innerHTML = cards[getRandom()];
+answ1.innerHTML = cards[getRandom()];
+answ2.innerHTML = cards[getRandom()];
+answ3innerHTML = cards[getRandom()];
+answ4.innerHTML = cards[getRandom()];
+
+
+
+
+<!-- 2 карточка-->
+		<div class="mx-auto box">
+			<div class="boxvnutrenyi ">
+				<div class="box1 col-12 textt ">
+					<div class="tac textt table1" id="timer_inp">30</div>							
+				</div>
+				<div class="box2 col-12">
+					<p class="textP pt-5">Кем приходится Николай 2 Романов Виктории-Королевы Великобритании?</p>
+				</div>
+				<div class="box3">
+					<!--див для картинки -->
+					<div class="boxImage texBtn1">
+						<img class="imgg " 
+						src="https://cdnimg.rg.ru/img/content/119/29/60/TASS_11942742_default.jpg"> -->
+					</div>
+					<!--ответы -->
+					<div class="answers table">
+						<div class="row">
+							<div class="ans answ1"><p class="texBtn1 pl-3 pt-2 ">Внуком</p></div>
+							<div class="ans1 answ2"><p class="texBtn1 pl-3 pt-2">Сыном</p></div>
+						</div>
+						<div class="row">
+							<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="ans1 answ3"><p class="texBtn1 pl-3 pt-2">Отцом</p></div>
+							<div style="border-bottom-right-radius:10px;border-bottom-left-radius:10px;" class="ans answ4"><p class="texBtn1 pl-3 pt-2">Праправнуком</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>	
+
+
+let round = document.querySelector('.');
+let texP = document.querySelector('.texp');
+let immgg = document.querySelector('.immgg');
+let anssw1 = document.querySelector('.anssw1');
+let anssw2 = document.querySelector('.anssw2');
+let anssw3 = document.querySelector('.anssw3');
+let anssw4 = document.querySelector('.anssw4');
+let anss = document.querySelector('.anss');
+let anss1 = document.querySelector('.anss1');
+let boxx2 = document.querySelector('.boxx2');
+let getRandom = function(){
+	let randNum = Math.random() * 2;
+	let roundNum = Math.round(randNum);
+	return roundNum;
+}
+
+let card1 = {
+	vopros: 'Кем приходится Николай 2 Романов Екатерине 2?',
+	ottveti: 'Внуком',
+	otvveti: 'Сыном',
+	otveeti: 'Отцом',
+	otvetti: 'Праправнуком',
+	img:'https://avatars.mds.yandex.net/get-zen_doc/164147/pub_5b9d9e51bd1d6600aae13efa_5b9d9e5f7fd3ba00aafe0e8e/scale_1200'
+};
+let card2 = {
+	vopros: 'В каком году и на какие города авиация США осуществила атомную бомбардировку?',
+	ottveti: 'Кирисима и Хиросима в 1945',
+	otvveti: 'Хабомаи и Шикотан в 1942',
+	otveeti: 'Окаяма и Акита в 1944',
+	otvetti: 'Хиросима и Нагасаки в 1945',
+	
+};
+
+immgg.src = 'https://cdnimg.rg.ru/img/content/119/29/60/TASS_11942742_default.jpg';
+boxx2.innerHTML = card2.vopros;
+anssw1.innerHTML = card2.ottveti;
+anssw2.innerHTML = card2.otvveti;
+anssw3.innerHTML = card2.otveeti;
+anssw4.innerHTML = card2.otvetti;
+
+<a href="C:\Users\User\Documents\Айти-домашка\new tags\Рандом и ретурн\Материалы урока85 урок\HistoryWork.html" class="btn btn-dark btn-lg mt-4 b a m p" type="button" aria-pressed="true" >Нажми</a>
+							</div>
+
+<a href="C:\Users\User\Documents\Айти-домашка\new tags\Рандом и ретурн\Материалы урока85 урок\HistoryWork.html" style="display:none;" class="btn btn-dark btn-lg mt-4 b a m p" type="button" aria-pressed="true" >Нажми</a>							
+
+
+<div class="tac textt table1" id="timer_inp">30</div>
+
+let textP = document.querySelector('.textP');
+let imgg = document.querySelector('.imgg');
+let answ1 = document.querySelector('.answ1');
+let answ2 = document.querySelector('.answ2');
+let answ3 = document.querySelector('.answ3');
+let answ4 = document.querySelector('.answ4');
+let anss = document.querySelector('.anss');
+let ans1 = document.querySelector('.anss1');
+let box2 = document.querySelector('.boxx2');
+let answers = document.querySelector('.answers');
+let btn = document.querySelector('.btn');
+let round = document.querySelector('.round');
+let al = document.querySelector('.al');
+let roundSc = 0;
+let scoreText = document.querySelector('.score');
+let score = 0;
+let alert = document.querySelector('.alert');
+let getRandom = function(){
+	let randNum = Math.random() * 3;
+	let roundNum = Math.round(randNum);
+	return roundNum;
+}
+
+let card1 = {
+	vopros: '1.Кем приходится Николай 2 Романов Виктории(Королевы Великобритании)?',
+	ottveti: 'Внуком',
+	otvveti: 'Сыном',
+	otveeti: 'Отцом',
+	otvetti: 'Праправнуком'
+};
+let card2 = {
+	vopros: '2.В каком году и на какие города авиация США осуществила атомную бомбардировку?',
+	ottveti: 'Кирисима и Хиросима в 1945',
+	otvveti: 'Хабомаи и Шикотан в 1942',
+	otveeti: 'Окаяма и Акита в 1944',
+	otvetti: 'Хиросима и Нагасаки в 1945',
+	
+};
+roundSc = roundSc + 1;
+round.innerHTML = 'Раунд: ' + roundSc;
+imgg.src = 'https://avatars.mds.yandex.net/get-zen_doc/164147/pub_5b9d9e51bd1d6600aae13efa_5b9d9e5f7fd3ba00aafe0e8e/scale_1200';
+textP.innerHTML = card1.vopros;
+answ1.innerHTML = card1.ottveti;
+answ2.innerHTML = card1.otvveti;
+answ3.innerHTML = card1.otveeti;
+answ4.innerHTML = card1.otvetti;
+
+// 1 вопрос
+answ1.onclick = function(){
+	alert.innerHTML = 'Неверно.';
+	
+}
+answ2.onclick = function(){
+	
+	alert.innerHTML = 'Неверно..';
+}
+answ3.onclick = function(){
+	
+	alert.innerHTML = 'Неверно...';
+}
+answ4.onclick = function(){
+	imgg.src = 'https://cdnimg.rg.ru/img/content/119/29/60/TASS_11942742_default.jpg';
+	textP.innerHTML = card2.vopros;
+	answ1.innerHTML = card2.ottveti;
+	answ2.innerHTML = card2.otvveti;
+	answ3.innerHTML = card2.otveeti;
+	answ4.innerHTML = card2.otvetti;
+	roundSc = roundSc + 1;
+	round.innerHTML = 'Раунд: ' + roundSc;
+}	
+
+// 2 вопрос
+answ1.onclick = function(){
+	alert.innerHTML = 'Неверно.';
+	
+}
+answ2.onclick = function(){
+	
+	alert.innerHTML = 'Неверно..';
+}
+answ3.onclick = function(){
+	imgg.src = 'https://cdnimg.rg.ru/img/content/119/29/60/TASS_11942742_default.jpg';
+	textP.innerHTML = card2.vopros;
+	answ1.innerHTML = card2.ottveti;
+	answ2.innerHTML = card2.otvveti;
+	answ3.innerHTML = card2.otveeti;
+	answ4.innerHTML = card2.otvetti;
+	alert.innerHTML = null;
+	roundSc = roundSc + 1;
+	round.innerHTML = 'Раунд: ' + roundSc;
+	
+}
+answ4.onclick = function(){
+	alert.innerHTML = 'Неверно...';
+}
+
+
+// 9 вопрос
+aaaannnssssw1.onclick = function(){
+	alert9.style.display = 'block';
+	alert9.innerHTML= 'Неверно.';
+}
+aaaannnssssw2.onclick = function(){
+	alert9.style.display = 'block';      
+	alert9.innerHTML= 'Неверно..';
+}
+aaaannnssssw3.onclick = function(){
+	alert9.style.display = 'block';
+	alert9.innerHTML= 'Верно';
+	alert9.innerHTML = null;
+	bbbboooxxxx.style.display = 'none';
+	score = score + 1;
+	scoreText.innerHTML = score;
+}
+aaaannnssssw4.onclick = function(){
+	alert9.style.display = 'block';
+	alert9.innerHTML= 'Неверно...'
+}

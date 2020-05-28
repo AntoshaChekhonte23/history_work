@@ -1,0 +1,132 @@
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+
+.bgImage {
+	background-image:
+	url(https://upload.wikimedia.org/wikipedia/de/thumb/5/51/Gruppenbild_1903.jpg/1920px-Gruppenbild_1903.jpg) ;
+	background-size: cover;
+	-webkit-animation: fade-in 1s linear; 
+	-moz-animation: fade-in 1s linear; 
+	-o-animation: fade-in 1s linear;
+	animation: fade-in 1s linear; 
+	position:relative;
+	z-index:1;
+}
+body {background: #ebcacb;}
+.a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  margin: 10px;
+  color: white;
+  box-shadow: 0 0 0 2px white;
+  padding: 20px 0;
+  width: 150px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  position: relative;
+  overflow: hidden;
+}
+.span {
+  font-family: 'Oranienbaum', serif;
+  position: relative;
+  z-index: 5;
+}
+.color {
+	color:#9e7533;
+}
+.btnMargin {
+	margin-left:850px;
+
+}
+.texBtn1 {
+	font-family: 'Yeseva One', cursive;
+	font-size:58px;
+}
+
+.tablo {
+	height:450px;
+	position:absolute;
+	background-color:white;
+	border-radius:10px;
+}
+.text1 {
+	font-family: 'Oranienbaum', serif;
+	
+	color:black;
+	text-align:center;
+	font-size:40px;
+	padding-top:10px;
+}
+.text2 {
+	font-family: 'Oranienbaum', serif;
+	color:black;
+	font-size:23px;
+	padding-top:20px;
+	padding-left:10px;
+}
+.pdp {
+	padding-top:10px;
+	padding-left:20px;
+}
+.a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 10px 20px;
+  position: relative;
+  color: white;
+  border: 1px solid rgba(255,255,255,.4);
+  background: none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-left:130px;
+}
+a:before,
+a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  box-sizing: border-box;
+}
+a:before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid white;
+  border-top: 1px solid white;
+  transition: 0s ease opacity .8s, .2s ease width .4s, .2s ease height .6s;
+}
+a:after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+  transition: 0s ease opacity .4s, .2s ease width , .2s ease height .2s;
+}
+a:hover:before,
+a:hover:after{
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+}
+a:hover:before {transition: 0s ease opacity 0s, .2s ease height, .2s ease width .2s;}
+a:hover:after {transition: 0s ease opacity .4s, .2s ease height .4s , .2s ease width .6s;}
+
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+a:hover {background: rgba(255,255,255,.2);}
+.textP {
+  font-family: 'Yeseva One', cursive;
+  color:#9e7533;
+  font-size: 21px;
+  color:black;
+  text-align:center;
+} 
+
